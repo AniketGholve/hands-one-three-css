@@ -1,0 +1,177 @@
+* {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+body {
+    background-color: gray;
+}
+
+.firstBox {
+    background-color: white;
+    border: 10px solid red;
+    border-radius: 10px;
+    position: relative;
+    width: 500px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(101, 17, 66);
+    text-shadow: 2px 2px 5px rgb(101, 17, 66);
+    box-shadow: 10px 10px 5px purple;
+    left: 35%;
+}
+
+hr {
+    border: 2px solid white;
+}
+
+.fixedBox {
+    position: fixed;
+    top: 80vh;
+    left: 35%;
+    color: rgb(162, 45, 45); 
+    border: 10px solid red;
+    border-radius: 15px;
+    width: 40em;
+    text-align: center;
+    background-color: rgb(170, 247, 46);
+    display: flex;
+    padding: 0px 10px;
+    box-shadow: 10px 10px 5px purple;
+}
+
+.fixedBox h1 {
+    width: 50%;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.fixedBox p {
+    width: 50%;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.secondBox {
+    border: 10px solid green;
+    position: relative;
+    width: 99%;
+    height: 900px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+    border: 10px solid red;
+    box-shadow: 10px 10px 5px purple;
+}
+
+.card1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    text-shadow: 2px 2px 3px rgb(104, 0, 59);
+    text-align: center;
+}
+
+.card2 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: grid;
+    place-content: center;
+}
+
+.card3 {
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+    color: black;
+    text-shadow: 2px 2px 3px rgb(104, 0, 59);
+}
+
+.card4 {
+    position: absolute;
+    bottom: 5%;
+    right: 0%;
+}
+
+form {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 3px rgb(104, 0, 59);
+    font-weight: 900;
+}
+
+form button {
+    background-color: red;
+    color: black;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.thirdBox {
+    background-color: green;
+    position: relative;
+    text-align: center;
+    width: 45%;
+    height:800px;
+    margin: 50px auto;
+    border: 10px solid purple;
+}
+
+.box {
+    border: 1px solid gray;
+    margin: 2px;
+}
+
+.box1 {
+    position: absolute;
+    height: 300px;
+    top: 10%;
+    left: 0%;
+    width: 49%;
+    background-color: rgb(240, 242, 96);
+}
+
+.box2 {
+    background-color: rgb(240, 242, 96);
+    position: absolute;
+    height: 300px;
+    top: 10%;
+    right: 0%;
+    width: 49%;
+}
+
+.box3 {
+    background-color: rgb(240, 242, 96);
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    margin-left: 1%;
+
+}
+
+.box1,
+.box2,
+.box3 h1 {
+    font-style: italic;
+}
+
+.box p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.box hr {
+    border: 2px solid gray;
+}
